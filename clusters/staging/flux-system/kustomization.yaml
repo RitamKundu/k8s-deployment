@@ -6,4 +6,3 @@ resources:
   - dev
   - test
   - prod
-namePrefix: staging
