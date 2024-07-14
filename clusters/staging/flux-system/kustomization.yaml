@@ -4,3 +4,4 @@ resources:
 - gotk-components.yaml
 - gotk-sync.yaml
 - ./helm-release/nginx-helm-release.yaml
+- ./helm-release/nginx-helm-repository.yaml
