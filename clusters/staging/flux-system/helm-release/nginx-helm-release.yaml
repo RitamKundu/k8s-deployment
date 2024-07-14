@@ -16,3 +16,6 @@ spec:
         name: nginx-helmrepository
         namespace: test
       interval: 1m
+  values:
+    service:
+      type: ClusterIP
