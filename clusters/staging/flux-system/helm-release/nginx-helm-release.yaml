@@ -6,9 +6,11 @@ metadata:
 spec:
   interval: 5m
   releaseName: nginx
+  timeout: 10m # Increase the timeout
   chart:
     spec:
       chart: nginx
+      version: 18.1.4 # Explicitly set the chart version
       sourceRef:
         kind: HelmRepository
         name: nginx-helmrepository
