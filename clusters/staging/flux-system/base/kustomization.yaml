@@ -1,0 +1,3 @@
+resources:
+- nginx-helm-repository.yaml
+- nginx-helm-release.yaml
